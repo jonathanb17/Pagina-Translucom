@@ -1,0 +1,236 @@
+/*estilo del logo*/
+
+body{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+#imagenResponsiva{
+      width: 100%;
+  }
+
+/************************contraste imagen************************************/
+.portadaImagenEmpresa{
+  opacity: 0.8;
+  /*cambio de color y fondo*/
+  background-color: #ccc;
+}
+
+.imagenPortadaTyH{
+  opacity: 0.8;
+  /*cambio de color y fondo
+  background-color: grey;*/
+  background-blend-mode: soft-light;
+}
+
+/*
+.imagenPortadaSustAlim{
+  text-shadow: 2px 2px black;
+}
+*/
+
+
+/*
+.cocacola{
+  width: 40%;
+}*/
+
+
+.imgmarcas{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/************************************************************/
+
+nav.navbar .navbar-brand img {
+  width: 30%;
+  margin-left: 1px;
+}
+
+
+
+.text-justify{
+  text-align: justify;
+}
+
+
+/*ver este estilo*/
+
+.texto-encima{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#centrar{
+  margin-top: 300px;
+  margin-left: 30px;
+}
+
+/*ver este estilo*/
+   .text{
+      margin-top: 369px;
+   }
+
+
+   .btnWhats{
+    width: 55px;
+    bottom: 20px;
+    right: 20px;
+  }
+
+
+  .servMinero{
+    width: 60%;
+    margin-left: -40px;
+  }
+
+
+  .subtituloEmpresa{
+      font-size: 23px;
+      text-shadow: 2px 2px black;
+  }
+
+
+  .estilotituloempresa{
+      text-shadow: 4px 4px black;
+  }
+
+
+/*
+  .w-50 {
+    margin-left: 128px;
+    margin-top: 9px;  
+    width: 50%!important;
+  }
+*/
+
+  #imagenIs0{
+    margin-left: 128px;
+    margin-top: 9px;  
+  }
+
+
+  #mision{
+    width: 80%;
+    text-align: center;
+  }
+
+
+
+
+  /*MEDIAS QUERYS*/
+
+@media only screen and (max-width: 575.98px){ 
+    nav.navbar .navbar-brand {
+      padding: 0;
+    }
+    nav.navbar .navbar-brand img {
+      margin-left: -8px;
+      width: 160px;
+    }
+
+    #imagenFoto{
+      width: 101%;
+    }
+    #imagenIs0{
+        margin-left: 69px;
+      }
+
+   #imagenIs1{
+     margin-left:7px;
+     width: 92%;
+   }   
+
+   .loma{
+     margin-top: 20px;
+   }
+
+
+      /*provando*/
+      #imagenResponsiva{
+         height: 293px; /*239px;*/
+      }
+
+      #centrar{
+        margin-left: -5px;
+         margin-top: 70px;
+       }
+
+       /*
+       .cocacola{
+        width: 47%;
+      }*/
+
+      .w-50 {
+         width: 54%!important;
+        /*width: 71%!important;*/
+      }
+
+
+
+   
+  }
+
+  /*media queri emi*/
+
+  @media only screen and (max-width: 300px){
+
+
+    .dropdown-menu.show{
+      margin-left: -39px;
+      }
+
+      .thyb{
+        margin-left: -18px;
+      }
+
+      .thb{
+        margin-left: -10px;
+      }
+
+      /*.colaboradores{
+        font-size: 50px;
+      }*/
+
+      .w-50 {
+       margin-left: 26px;
+        margin-top: -24px;
+        width: 65%!important;
+        padding-left: 31px;
+       
+        /*
+          margin-left: -7px;
+          margin-top: -24px;
+          width: 91%!important;
+          padding-left: 31px; 
+        */
+    }
+
+    /*
+      .cocacola{
+        width: 63%;
+      }*/
+
+      #imagenIs0{
+        margin-left: 14px;
+      }
+
+
+      .servMinero{
+        width: 117%;
+        margin-top: 78px;
+        margin-left: -4px;
+      }
+
+
+      .tituloEmpresa{
+        margin-top:10px;
+      }
+ 
+   }
+
+  
+
+
